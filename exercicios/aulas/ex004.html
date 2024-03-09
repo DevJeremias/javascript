@@ -6,12 +6,15 @@
     <title>Meus Primeiros passos com DOM</title>
     <style>
         body {
-            background-color: rgb(26, 91, 91);
-            color: rgb(9, 9, 52);
+            background-image: linear-gradient(to top, rgb(80, 80, 147), rgb(72, 125, 85));
+            color: rgb(255, 255, 255);
             font: normal 1.3em Arial;
+            height: 100vh;
+            text-shadow: 1px 1px 1px black;
         }
-        h3 {
+        h3 , h4 {
             font-weight: normal;
+            color: rgb(255, 191, 0);
         }
         main{
             padding-top: 30vh;
@@ -20,6 +23,12 @@
         }
         main p#clique:hover{
             color: white;
+        }
+        p {
+            text-align: left;
+            padding-left: 50vh;
+            padding-right: 60vh;
+            color: rgb(224, 222, 222);
         }
 
         main p.p {
@@ -31,6 +40,9 @@
 <body>
     <main>
         <h3>Iniciando estudos com <strong>DOM</strong> em JavaScript</h3>
+        <h4>Você sabe o que é o DOM?</h4>
+        <p>o DOM significa Document Object Model</p>
+        <p>Ele é um facilitador que tem dentro do navegador através do HTML5 que nos permite acessar todos os itens da página</p>
         <p class=>Aqui está o resultado</p>
         <p id="clique">Clique em mim!</p>
     </main>
