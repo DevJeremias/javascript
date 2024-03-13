@@ -5,12 +5,15 @@
 
 body {
     background-color: rgb(70, 142, 236);
+    background-color: #3070ac;
     font: normal 15pt Arial;
 }
 
 header {
     color: white;
     text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 section {
@@ -20,10 +23,40 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.205);
+    text-align: center;
+}
+#botao {
+    background-color: #3070ac;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+#txtano {
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+section div { 
+   font-weight: 600;
+   padding-bottom: 10px;
+}
+section img {
+    display: block;
+    margin: auto;
 }
 
 footer {
     color: white;
     text-align: center;
     font-style: oblique;
+    margin-top: 15vh;
 }
